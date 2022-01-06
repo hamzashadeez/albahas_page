@@ -24,6 +24,14 @@ body {
 
 }
 
+#close{
+    width: 35px;
+    object-fit: contain;
+    z-index: 100;
+    height: 35px;
+    display: none;
+}
+
 
 .logo{
     font-size: 1.2rem;
@@ -172,6 +180,11 @@ label{
     /* display: flex; */
 }
 
+.features > h1{
+    font-size: 45px;
+    display: none;
+}
+
 #menu_btn{
     width: 30px;
     height: 20px;
@@ -218,17 +231,25 @@ label{
 }
 .fea{
     min-width: 300px;
-    margin: 5px 10px
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+
+.fea:hover{
+    transform: scale(1.1)
 }
 
 .fea > h4{
-    color: var(--primary);
+    color: var(--secondary);
     text-align: center;
     margin: 15px 0;
 }
 
 .fea > p{
-    color: #151515;
+    color: var(--secondary);
     padding: 10px;
     font-size: 1rem;
 }
@@ -238,7 +259,11 @@ label{
     margin: 0 auto
 }
 
-
+.icon_f{
+    object-fit: contain;
+    width: 70px;
+    margin: 15px auto;
+}
 
 
 
@@ -280,6 +305,11 @@ label{
     #contact_form{
         max-width: 300px;
         margin: 0 auto
+    }
+
+    .features > h1{
+        font-size: 45px;
+        display: block;
     }
 
     #menu_btn{
@@ -328,10 +358,10 @@ label{
     /* display: flex; */
     width: 100%;
     position: fixed;
-    top: 11%; right: 0;
+    top: 11.3%; right: 0;
     background-color: var(--accent);
     flex-direction: column;
-    transition: .5s ease-in-out;
+    transition: 0.4s ease-out;
 }
 
 #mobile_menu > li{
@@ -356,5 +386,6 @@ label{
     font-size: 1.5rem;
     margin-top: 45px !important;
 }
+
 
 }
