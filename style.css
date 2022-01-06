@@ -279,9 +279,9 @@ label{
     /* height: 3rem; */
 }
 
-/* #mobile_menu{
-    display: none !important;
-} */
+#mobile_menu{
+    display: none;
+}
 
 footer{
     background-color: var(--primary);
@@ -422,5 +422,8 @@ footer > div{
 .icon_f{
     width: 50px;
 }
+
+.footer__list > li > a{
+    font-size: .9rem;
 
 }
