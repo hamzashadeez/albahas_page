@@ -328,7 +328,7 @@ label{
     /* display: flex; */
     width: 100%;
     position: fixed;
-    top: 9.5%; right: 0;
+    top: 11%; right: 0;
     background-color: var(--accent);
     flex-direction: column;
     transition: .5s ease-in-out;
@@ -350,6 +350,11 @@ label{
 
 .features > h4{
     font-size: 1.1rem;
+}
+
+.sectiontitle{
+    font-size: 1.5rem;
+    margin-top: 45px !important;
 }
 
 }
