@@ -279,9 +279,9 @@ label{
     /* height: 3rem; */
 }
 
-#mobile_menu{
+/* #mobile_menu{
     display: none !important;
-}
+} */
 
 footer{
     background-color: var(--primary);
